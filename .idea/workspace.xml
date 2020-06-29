@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mask_R-CNN/images/ja.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mask_R-CNN/images/me_dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mask_R-CNN/images/tesla.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mask_R-CNN/mask-rcnn-coco/colors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mask_R-CNN/mask-rcnn-coco/frozen_inference_graph.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mask_R-CNN/mask-rcnn-coco/mask_rcnn_inception_v2_coco_2018_01_28.pbtxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mask_R-CNN/mask-rcnn-coco/object_detection_classes_coco.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mask_R-CNN/mask_rcnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape_color_detector/classes/colorlabeler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape_color_detector/classes/shapedetector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape_color_detector/detectshapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape_color_detector/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape_color_detector/result.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape_color_detector/shapes_and_colors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_correction/correct_skew.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_correction/image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_correction/image2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_correction/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_correction/images/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593416074725</updated>
       <workItem from="1593416082011" duration="62000" />
-      <workItem from="1593416146747" duration="693000" />
+      <workItem from="1593416146747" duration="1330000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1593416364007</created>
@@ -83,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593416364007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1593419481418</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593419481418</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>
