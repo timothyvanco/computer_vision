@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # OPENCV BOOK
 
 In this folder is many tutorials for OpenCV. Recommend to take a look.
@@ -12,8 +11,8 @@ In practical cases I am learning and dealing with practical cases with OpenCV su
 - recognizing handwritten text
 - object detection or plant classification
 
-=======
->>>>>>> f8b2573345e2d3cee7c0dddeccc29a5baccc7906
+
+
 # CENTER OF CONTOUR
 
 goal: How do I compute the center of a contour using Python and OpenCV?
@@ -27,7 +26,6 @@ image preprocessing:
 3) Binarization of the image (thresholding)
 
 ![Hnet-image](https://user-images.githubusercontent.com/9129477/84660099-a628f780-af18-11ea-9c02-67ac7dc020ef.gif)
-<<<<<<< HEAD
 
 # SHAPE & COLOR DETECTION
 
@@ -53,6 +51,3 @@ goal: find text and then rotate it to right - horizontal position for reading
 5) Rotate image into horizontal position with: warpAffine based on: cv2.getRotationMatrix2D
 
 ![rotate](text_correction/image1.png)
-
-=======
->>>>>>> f8b2573345e2d3cee7c0dddeccc29a5baccc7906
