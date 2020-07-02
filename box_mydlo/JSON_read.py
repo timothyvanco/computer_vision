@@ -24,10 +24,21 @@ def compute_vector(center_object_x, center_object_y, center_object_z):
         if center_box_y >= 0:
             zone = 1
             vector_x_start, vector_y_start, vector_z_start = center_object_x, center_object_y, center_object_z
-            a = center_object_y - center_box_y
-            b = center_object_x - center_box_x
-            c = math.sqrt((a*a)+(b*b))
-            alpha = 1 / math.sin(a/c)
+            a = vector_y_start - center_box_y
+            b = vector_x_start - center_box_x
+            c = math.sqrt((a*a)+(b*b))  # Pytagoras
+            alpha = 1 / math.sin(a/c)   # angle of vector from center of object into center of box
+
+            # a, b, c are lines of triangle = vector
+            a_vector = math.sin(alpha) * length_vector
+            b_vector = math.cos(alpha) * length_vector
+
+            # coordinates of point of triangle
+            y = vector_y_start - a_vector
+            x = vector_x_start - b_vector
+
+            vector_x_end, vector_y_end, vector_z_end = x, y, vector_z_start - 3
+
 
         if center_box_y < 0:
             zone = 2

@@ -19,18 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/computer_vision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/computer_vision.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D_visualization/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D_visualization/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D_visualization/test_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D_visualization/test_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON/JSON_decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSON/JSON_decoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON/json_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSON/json_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mask_R-CNN/mask_r-cnn_PyTorch/mask_r-cnn_pytorch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mask_R-CNN/mask_r-cnn_PyTorch/mask_r-cnn_pytorch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mask_R-CNN/mask_rcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mask_R-CNN/mask_rcnn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/box_mydlo/JSON_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/box_mydlo/JSON_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/box_mydlo/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/box_mydlo/code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +194,7 @@
       <workItem from="1593432979434" duration="2277000" />
       <workItem from="1593590295265" duration="2431000" />
       <workItem from="1593601187561" duration="4098000" />
-      <workItem from="1593680594033" duration="10954000" />
+      <workItem from="1593680594033" duration="12106000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1593416364007</created>
@@ -212,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593416364007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1593697403173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593697403173</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +230,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2377" y="820" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593593546558">
@@ -259,6 +258,10 @@
       <screen x="72" y="27" width="3768" height="2133" />
     </state>
     <state x="1429" y="793" width="1022" height="737" key="SettingsEditor/72.27.3768.2133@72.27.3768.2133" timestamp="1593433015067" />
+    <state x="1887" y="823" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593697407222">
+      <screen x="72" y="27" width="3768" height="2133" />
+    </state>
+    <state x="1887" y="823" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.3768.2133@72.27.3768.2133" timestamp="1593697407222" />
     <state x="1711" y="843" width="538" height="623" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593678998301">
       <screen x="72" y="27" width="3768" height="2133" />
     </state>
