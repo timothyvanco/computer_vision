@@ -18,6 +18,12 @@ vector_x_start, vector_y_start, vector_z_start = 0, 0, 0
 vector_x_end, vector_y_end, vector_z_end = 0, 0, 0
 length_vector = 10 # length of vector = 10cm
 
+# zones of box are separated into 4 regions:
+# |-----|-----|
+# |  4  |  1  |
+# |-----|-----|
+# |  3  |  2  |
+# |_____|_____|
 def compute_vector(center_object_x, center_object_y, center_object_z):
     # objekt je napravo od stredu
     if center_box_x >= 0:
@@ -43,7 +49,7 @@ def compute_vector(center_object_x, center_object_y, center_object_z):
         if center_box_y < 0:
             zone = 2
             vector_x_start, vector_y_start, vector_z_start = center_object_x, center_object_y, center_object_z
-
+            a =
 
 
     if center_box_x < 0:
