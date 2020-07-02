@@ -48,6 +48,8 @@ print("[INFO] Mask R-CNN took {:.6f} seconds".format(end - start))
 print("[INFO] boxes shape: {}".format(boxes.shape))
 print("[INFO] masks shape: {}".format(masks.shape))
 
+clone = image.copy() # clone it so I can draw on it
+
 # loop over detected objects
 for i in range(0, boxes.shape[2]):
     # extract class ID of the detection along with confidence (probability) associated with prediction
@@ -56,7 +58,7 @@ for i in range(0, boxes.shape[2]):
 
     # filter weak predictions
     if confidence > args["confidence"]:
-        clone = image.copy() # clone it so I can draw on it
+
 
         box = boxes[0, 0, i, 3:7] * np.array([W, H, W, H])
         (startX, startY, endX, endY) = box.astype("int")
@@ -100,5 +102,6 @@ for i in range(0, boxes.shape[2]):
         text = "{}: {:.4f}".format(LABELS[classID], confidence)
         cv2.putText(clone, text, (startX, startY - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
-        cv2.imshow("Output", clone)
-        cv2.waitKey(0)
+cv2.imshow("Output", clone)
+cv2.imwrite("Mask_R-CNN.jpg", clone)
+cv2.waitKey(0)
