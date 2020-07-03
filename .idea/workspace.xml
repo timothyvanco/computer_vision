@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="" />
+    <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Mask_R-CNN/Mask_R-CNN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mask_R-CNN/tesla_output.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/computer_vision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/computer_vision.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mask_R-CNN/mask_rcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mask_R-CNN/mask_rcnn.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +26,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1dz7TPPeuofO5kY3voNH3LGz5w2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../git_code" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -28,7 +39,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593416074725</updated>
       <workItem from="1593416082011" duration="62000" />
-      <workItem from="1593416146747" duration="1330000" />
+      <workItem from="1593416146747" duration="3046000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1593416364007</created>
@@ -69,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593419481418</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third commit">
+      <created>1593431483421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593431483421</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,8 +107,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
 </project>
