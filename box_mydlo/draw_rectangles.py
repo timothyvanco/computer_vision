@@ -5,18 +5,20 @@ class ExampleApp(tk.Tk):
     def __init__(self):
         tk.Tk.__init__(self)
         self.x = self.y = 0
-        self.canvas = tk.Canvas(self, width=1000, height=1000, cursor="cross", bg="black")
-        self.canvas.create_line(500, 0, 500, 1000, fill="white")
-        self.canvas.create_line(0, 500, 1000, 500, fill="white")
+
+        self.width_box = 2000
+        self.height_box = 1200
+        self.center_box_x = self.width_box / 2
+        self.center_box_y = self.height_box / 2
+        self.length_vector = 50
+
+        self.canvas = tk.Canvas(self, width=2000, height=1200, cursor="cross", bg="black")
+        self.canvas.create_line(self.width_box / 2, 0, self.width_box / 2, self.height_box, fill="white")
+        self.canvas.create_line(0, self.height_box / 2, self.width_box, self.height_box / 2, fill="white")
 
         self.canvas.pack(side="top", fill="both", expand=True)
         self.canvas.bind("<ButtonPress-1>", self.on_button_press)
         self.canvas.bind("<ButtonRelease-1>", self.on_button_release)
-
-        self.center_box_x = 500
-        self.center_box_y = 500
-        self.length_vector = 50
-
 
     def on_button_press(self, event):
         self.x = event.x
@@ -125,22 +127,26 @@ class ExampleApp(tk.Tk):
         if (x0 < x1) and (y0 < y1):
             x_start, y_start = x0, y0
             x_end, y_end = x1, y1
+            print("lavo hore -> pravo dolu")
         elif (x0 > x1) and (y0 < y1):
             x_start, y_start = x1, y0
             x_end, y_end = x0, y1
+            print("pravo hore -> lavo dolu")
         elif (x0 < x1) and (y0 > y1):
             x_start, y_start = x0, y1
             x_end, y_end = x1, y0
+            print("lavo dolu -> pravo hore")
         elif (x0 > x1) and (y0 > y1):
             x_start, y_start = x1, y1
             x_end, y_end = x0, y0
+            print("pravo dolu -> lavo hore")
 
         print("Start x, y: {}, {}".format(x_start, y_start))
         print("End   x, y: {}, {}".format(x_end, y_end))
         print()
         self.canvas.create_rectangle(x0, y0, x1, y1, fill="red")
-        line_start_x, line_start_y, line_end_x, line_end_y = self.compute_vector(x_start, y_start, x_end, y_end, 1000, 1000)
-        self.canvas.create_line(line_start_x, line_start_y, self.center_box_x, self.center_box_y, fill="white")
+        line_start_x, line_start_y, line_end_x, line_end_y = self.compute_vector(x_start, y_start, x_end, y_end, self.width_box, self.height_box)
+        self.canvas.create_line(line_start_x, line_start_y, line_end_x, line_end_y, fill="white")
 
 
 if __name__ == "__main__":
