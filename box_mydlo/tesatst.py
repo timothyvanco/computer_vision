@@ -6,10 +6,10 @@ class ExampleApp(tk.Tk):
         tk.Tk.__init__(self)
         self.x = self.y = 0
 
-        #self.width_box = int(input("Enter WIDTH of BOX: "))
-        #self.height_box = int(input("Enter HEIGHT of BOX: "))
-        self.width_box = 2000
-        self.height_box = 1200
+        # self.width_box = int(input("Enter WIDTH of BOX: "))
+        # self.height_box = int(input("Enter HEIGHT of BOX: "))
+        self.width_box = 1000
+        self.height_box = 1000
         self.center_box_x = self.width_box / 2
         self.center_box_y = self.height_box / 2
         self.length_vector = 100
@@ -33,8 +33,8 @@ class ExampleApp(tk.Tk):
     # |  3  |  2  |
     # |_____|_____|
     def compute_vector(self, obj_x0, obj_y0, obj_x1, obj_y1, box_width, box_height):
-        center_object_x = ((obj_x1 - obj_x0) / 2) + obj_x0
-        center_object_y = ((obj_y1 - obj_y0) / 3) + obj_y0
+        center_object_x = (obj_x1 + obj_x0) / 2
+        center_object_y = (obj_y1 + obj_y0) / 2
 
         a = abs(self.center_box_y - center_object_y)
         b = abs(self.center_box_x - center_object_x)
@@ -89,7 +89,7 @@ class ExampleApp(tk.Tk):
 
         return (center_object_x, center_object_y, vector_x_end, vector_y_end)
 
-        self.canvas.create_line(self.center_x, self.center_y, self.center_x + 100, self.center_y + 100, fill="blue")
+        self.canvas.create_line(self.center_x, self.center_y, self.center_x+100, self.center_y+100, fill="blue")
 
     def on_button_release(self, event):
         x0, y0 = (self.x, self.y)
@@ -120,6 +120,6 @@ class ExampleApp(tk.Tk):
         self.canvas.create_line(line_start_x, line_start_y, line_end_x, line_end_y, fill="white")
 
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     app = ExampleApp()
     app.mainloop()
