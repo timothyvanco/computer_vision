@@ -1,10 +1,7 @@
 ## FACE DETECTION
 
-<<<<<<< HEAD
+
 I am using pre-trained HAAR cascades classifier in XML.
-=======
-I am using pre-trained Haar cascades classifier in XML.
->>>>>>> f8b2573345e2d3cee7c0dddeccc29a5baccc7906
 
 Haar cascades are all called Viola-Jones detectors, 
 named after the researchers who first introduced 
@@ -21,7 +18,6 @@ the classifier is asked whether or not it “thinks” there is a face in the cu
 Result:
 
 ![me](face_detection/me.jpg)
-<<<<<<< HEAD
 
 ## OBJECT TRACKING
 
@@ -113,5 +109,3 @@ RANSAC algorithm is iterative. It randomly samples potential matches and then de
 result:
 
 ![result](amazon_cover_search/result.png)
-=======
->>>>>>> f8b2573345e2d3cee7c0dddeccc29a5baccc7906

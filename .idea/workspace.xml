@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="third commit">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blur_detection/detect_blur.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blur_detection/images/ja.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blur_detection/images/ja.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blur_detection/images/me_dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blur_detection/images/tesla.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -52,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../git_code" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -62,18 +66,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.test_draw">
     <configuration name="JSON_read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -163,9 +155,7 @@
       <workItem from="1593416082011" duration="62000" />
       <workItem from="1593416146747" duration="3046000" />
       <workItem from="1594018978690" duration="13322000" />
-      <workItem from="1594034329461" duration="6212000" />
-      <workItem from="1594070244239" duration="496000" />
-      <workItem from="1594281346117" duration="470000" />
+      <workItem from="1594034329461" duration="10790000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1593416364007</created>
@@ -209,24 +199,30 @@
       <option name="project" value="LOCAL" />
       <updated>1594028996632</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="third commit">
+      <created>1594042698320</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594042698321</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -256,10 +252,10 @@
       <screen x="72" y="27" width="3768" height="2133" />
     </state>
     <state width="2542" height="438" key="GridCell.Tab.0.right/72.27.3768.2133/3840.432.1920.1080@72.27.3768.2133" timestamp="1594029541883" />
-    <state x="1547" y="882" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594029002138">
+    <state x="1547" y="882" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594042702344">
       <screen x="72" y="27" width="3768" height="2133" />
     </state>
-    <state x="1547" y="882" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.3768.2133/3840.432.1920.1080@72.27.3768.2133" timestamp="1594029002138" />
+    <state x="1547" y="882" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.3768.2133/3840.432.1920.1080@72.27.3768.2133" timestamp="1594042702344" />
     <state x="1678" y="286" width="2195" height="1403" key="dock-window-1" timestamp="1594028657538">
       <screen x="72" y="27" width="3768" height="2133" />
     </state>
