@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Mask_R-CNN/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Mask_R-CNN/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594323578148</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="mask commmit davaj!">
+      <created>1594323779357</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594323779357</updated>
+    </task>
+    <task id="LOCAL-00014" summary="mask commmit davaj!">
+      <created>1594323896811</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594323896811</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +290,8 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
     <MESSAGE value="mask r cnn commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="mask r cnn commit" />
+    <MESSAGE value="mask commmit davaj!" />
+    <option name="LAST_COMMIT_MESSAGE" value="mask commmit davaj!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1614" y="737" width="666" height="826" key="#JSON_read" timestamp="1594019305168">
