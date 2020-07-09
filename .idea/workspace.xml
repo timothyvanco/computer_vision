@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="third commit">
-      <change afterPath="$PROJECT_DIR$/blur_detection/detect_blur.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blur_detection/images/ja.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blur_detection/images/ja.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blur_detection/images/me_dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blur_detection/images/tesla.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mask_R-CNN/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Mask_R-CNN/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +62,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.test_draw">
     <configuration name="JSON_read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -134,6 +142,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.draw" />
+      <item itemvalue="Python.JSON_read" />
+      <item itemvalue="Python.test_draw" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.test_draw" />
@@ -217,12 +230,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
