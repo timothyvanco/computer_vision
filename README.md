@@ -10,13 +10,13 @@ The original R-CNN algorithm is a four-step process:
 - 3: Use transfer learning, specifically feature extraction, to compute features for each proposal (which is effectively an ROI) using the pre-trained CNN.
 - 4: Classify each proposal using the extracted features with a Support Vector Machine (SVM).
 
-![image_mask_r_cnn](Mask_R-CNN/mask-r-cnn-howto.png)
+![image_mask_r_cnn](Mask-R-CNN/mask-r-cnn-howto.png)
 
 However, the problem with the R-CNN method is it’s incredibly slow. To improve upon the original R-CNN, Girshick et al. published the Fast R-CNN algorithm:
 
 ### My result is here:
 
-![myresult-mask-r-cnn](Mask_R-CNN/Mask_R-CNN.jpg)
+![myresult-mask-r-cnn](Mask-R-CNN/Mask_R-CNN.jpg)
 
 # OPENCV BOOK
 
