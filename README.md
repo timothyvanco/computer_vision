@@ -1,3 +1,12 @@
+# MASK R-CNN
+
+The Mask R-CNN is a Convolution Neural Network algorithm, which was introduced by He et al. in their 2017 paper, Mask R-CNN.
+Mask R-CNN builds on the previous object detection work of R-CNN (2013), Fast R-CNN (2015), and Faster R-CNN (2015), all by Girshick et al.
+
+### My result is here:
+
+![myresult-mask-r-cnn](Mask-R-CNN/Mask_R-CNN.jpg)
+
 # OPENCV BOOK
 
 In this folder is many tutorials for OpenCV. Recommend to take a look.
