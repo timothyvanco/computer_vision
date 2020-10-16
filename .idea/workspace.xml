@@ -19,23 +19,255 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mask/Mask_R-CNN.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask/mask-r-cnn-howto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask/mask_rcnn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask/tesla_output.jpg" beforeDir="false" />
+    <list default="true" id="259a3735-4527-42fd-81c7-ba6f4f4aac1d" name="Default Changelist" comment="mask commmit davaj!">
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/.ipynb_checkpoints/rectpack_test-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/docs/maxrects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/docs/skyline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/rectpack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/rectpack/enclose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/rectpack/geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/rectpack/guillotine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/rectpack/maxrects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/rectpack/pack_algo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/rectpack/packer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/rectpack/skyline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/rectpack/waste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/test_collisions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/test_decimal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/test_enclose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/test_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/test_geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/test_guillotine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/test_maxrects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/test_packer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/test_skyline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/test_stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack-master/tests/test_waste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack_test.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinPackingProblem/rectpack/temp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/.ipynb_checkpoints/HDBSCAN_test-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/HDBSCAN_test.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/cluster_faces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/clusterable_data.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/000001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000119.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000122.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000137.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000139.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000148.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000159.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000163.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000181.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000183.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/000002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000020.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000208.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000209.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000211.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000214.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000215.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000217.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000218.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000219.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000220.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000223.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000245.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000258.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000026.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000283.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000286.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/000003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000033.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000336.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000337.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000338.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000339.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000341.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000342.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000343.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000344.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000345.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000346.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000347.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000348.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000349.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000350.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000352.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/00000353.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000039.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/000004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000040.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000041.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000043.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000044.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000045.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000046.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000047.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000048.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000049.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000051.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000052.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000053.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000054.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000055.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000056.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000058.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/000006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000061.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000065.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000066.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000067.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000068.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000069.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/000007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000070.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000071.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000072.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000076.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000077.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000079.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/000008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000081.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000087.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000088.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000089.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/000009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000090.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000091.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000093.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000094.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000095.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000096.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000098.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/dataset/0000099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/encode_faces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/encodings.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/test_clusters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sudoku/digit_classifier.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sudoku/puzzle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sudoku/sudokunet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sudoku/train_digit_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="computer_vision" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -79,7 +311,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_draw">
+  <component name="RunManager" selected="Python.BinPackingProblem">
+    <configuration name="BinPackingProblem" type="PythonConfigurationType" factoryName="Python">
+      <module name="computer_vision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.conda/envs/ml/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinPackingProblem/rectpack" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinPackingProblem/rectpack/rectpack_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="JSON_read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="computer_vision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,6 +401,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.BinPackingProblem" />
       <item itemvalue="Python.draw" />
       <item itemvalue="Python.JSON_read" />
       <item itemvalue="Python.test_draw" />
@@ -173,6 +428,15 @@
       <workItem from="1593416146747" duration="3046000" />
       <workItem from="1594018978690" duration="13322000" />
       <workItem from="1594034329461" duration="10790000" />
+      <workItem from="1594817404012" duration="303000" />
+      <workItem from="1594833714793" duration="170000" />
+      <workItem from="1594846892393" duration="372000" />
+      <workItem from="1595116963571" duration="241000" />
+      <workItem from="1596190276280" duration="19210000" />
+      <workItem from="1596807778355" duration="65000" />
+      <workItem from="1597771756473" duration="7321000" />
+      <workItem from="1602590952463" duration="1791000" />
+      <workItem from="1602860889775" duration="1091000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1593416364007</created>
@@ -297,7 +561,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -357,7 +621,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/computer_vision$JSON_read.coverage" NAME="JSON_read Coverage Results" MODIFIED="1594019311607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/box_mydlo" />
-    <SUITE FILE_PATH="coverage/computer_vision$test_draw.coverage" NAME="test_draw Coverage Results" MODIFIED="1594028665612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/box_mydlo" />
+    <SUITE FILE_PATH="coverage/computer_vision$BinPackingProblem.coverage" NAME="BinPackingProblem Coverage Results" MODIFIED="1602861119336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinPackingProblem/rectpack" />
+    <SUITE FILE_PATH="coverage/computer_vision$test_draw.coverage" NAME="test_draw Coverage Results" MODIFIED="1602591222313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/box_mydlo" />
     <SUITE FILE_PATH="coverage/computer_vision$draw.coverage" NAME="draw Coverage Results" MODIFIED="1593774165699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/box_mydlo" />
   </component>
 </project>
